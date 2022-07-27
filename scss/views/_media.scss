@@ -1,0 +1,9 @@
+.main{
+&__videography {
+    @include flex (row, center, none); 
+    flex-wrap: wrap;
+}
+&__video {
+    margin: 1rem;
+}
+}

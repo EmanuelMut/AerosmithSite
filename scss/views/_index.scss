@@ -1,0 +1,70 @@
+.main {
+    &__sectionmembers {
+        @include flex (column, none, none)  
+    }
+
+    &__img {
+        width: 100%;
+    }
+
+    &__biobandtitle {
+       padding: 0%;
+        color: $color-secondary;
+    }
+
+    &__bioband {
+        background-color: $color-primary;
+        border-radius: 15px;
+        opacity: 70%;
+        margin: 1rem 0rem 1rem 0rem;
+        padding: 15px;
+    }
+
+    &__imgmember1 {
+        margin-left: 7rem;
+    }
+
+    &__imgmember2 {
+        margin-right: 7rem;
+    }
+
+    &__text1 {
+        margin-right: 7rem;
+        background-color: $color-primary;
+        padding: 10px;
+        opacity: 70%;
+        border-radius: 15px;
+    }
+
+    &__text2 {
+        margin-left: 7rem;
+        background-color: $color-primary;
+        padding: 10px;
+        opacity: 70%;
+        border-radius: 15px;
+    }
+
+    &__name2 {
+        text-align: end;
+    }
+
+    &__steven {
+        @include flex (row, none, center)  
+    }
+
+    &__joe {
+        @include flex (row-reverse, none, center) 
+    }
+
+    &__brad {
+        @include flex (row, none, center)  
+    }
+
+    &__tom {
+        @include flex (row-reverse, none, center)  
+    }
+
+    &__joey {
+        @include flex (row, none, center)  
+    }
+}

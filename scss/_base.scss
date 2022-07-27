@@ -1,0 +1,31 @@
+.main {
+    background-color: black;
+    padding-bottom: 5rem;
+
+    & h1 {
+        font-size: 40px;
+        color: $color-secondary;
+        text-align: center;
+        padding: 3rem;
+    }
+
+    & h2 {
+        font-size: 35px;
+        text-align: center;
+        padding: 1.5rem;
+        color: $color-secondary;
+    }
+
+    & h3 {
+        background-color: $color-primary;
+        color: $color-secondary;
+    }
+
+    & p {
+        color: $color-secondary;
+    }
+
+    & label {
+        color: $color-secondary;
+    }
+}

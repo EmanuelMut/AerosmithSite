@@ -7,29 +7,6 @@ ul {
 body {
   font-family: 'Roboto', sans-serif; }
 
-/*--------------------------------------------------------HEADER-------------------------------------------------------*/
-.header {
-  background: url("../img/backgroundpurple.png") repeat;
-  background-size: auto;
-  min-height: auto;
-  max-width: 100%; }
-  .header .navbar {
-    background-color: transparent !important; }
-  .header .navbar-nav a {
-    padding-left: 6rem;
-    transition: all 1s; }
-  .header .navbar-brand img {
-    max-width: 100%; }
-  .header .navbar-nav a:hover {
-    color: #948647; }
-  .header .navbar-nav .nav-link,
-  .header .navbar-nav .show > .nav-link {
-    font-size: 20px;
-    color: silver; }
-  .header .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28 255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"); }
-
-/*--------------------------------------------------------GENERAL MAIN-------------------------------------------------------*/
 .main {
   background-color: black;
   padding-bottom: 5rem; }
@@ -51,12 +28,182 @@ body {
   .main label {
     color: silver; }
 
-/*--------------------------------------------------------FOOTER-------------------------------------------------------*/
+.main__sectionmembers {
+  display: flex;
+  flex-direction: column;
+  justify-content: none;
+  align-items: none; }
+
+.main__img {
+  width: 100%; }
+
+.main__biobandtitle {
+  padding: 0%;
+  color: silver; }
+
+.main__bioband {
+  background-color: #51287a;
+  border-radius: 15px;
+  opacity: 70%;
+  margin: 1rem 0rem 1rem 0rem;
+  padding: 15px; }
+
+.main__imgmember1 {
+  margin-left: 7rem; }
+
+.main__imgmember2 {
+  margin-right: 7rem; }
+
+.main__text1 {
+  margin-right: 7rem;
+  background-color: #51287a;
+  padding: 10px;
+  opacity: 70%;
+  border-radius: 15px; }
+
+.main__text2 {
+  margin-left: 7rem;
+  background-color: #51287a;
+  padding: 10px;
+  opacity: 70%;
+  border-radius: 15px; }
+
+.main__name2 {
+  text-align: end; }
+
+.main__steven {
+  display: flex;
+  flex-direction: row;
+  justify-content: none;
+  align-items: center; }
+
+.main__joe {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: none;
+  align-items: center; }
+
+.main__brad {
+  display: flex;
+  flex-direction: row;
+  justify-content: none;
+  align-items: center; }
+
+.main__tom {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: none;
+  align-items: center; }
+
+.main__joey {
+  display: flex;
+  flex-direction: row;
+  justify-content: none;
+  align-items: center; }
+
+.main__videography {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: none;
+  flex-wrap: wrap; }
+
+.main__video {
+  margin: 1rem; }
+
+.main__albumsection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: none;
+  flex-wrap: wrap;
+  padding: 3rem; }
+
+.main__imgmusic {
+  width: 100%; }
+
+.main__albumsection iframe {
+  margin: 1rem; }
+
+.main__imgtour {
+  background-color: black;
+  width: 100%; }
+
+.main__toursection2 {
+  padding: 10rem 1.5rem 5rem 1.5rem; }
+
+.main__toursection2 th {
+  color: silver; }
+
+.main__toursection2 tr {
+  background-color: #51287a; }
+
+.main td {
+  color: silver; }
+
+.main .btntour1 {
+  color: silver; }
+
+.main__storesection {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: none;
+  flex-wrap: wrap;
+  margin: 3rem 7rem 3rem 7rem; }
+
+.main__storesection img {
+  transition: all 0.5s; }
+
+.main__storesection img {
+  width: 25%;
+  margin: 2rem; }
+
+.main__storesection img:hover {
+  transform: scale(1.5, 1.5);
+  border: solid black; }
+
+.main__imgcontact {
+  padding-top: 1rem;
+  width: 100%; }
+
+.main__form {
+  border-color: #51287a;
+  border-style: double; }
+
+.main__btnform {
+  padding: 5px;
+  margin-bottom: 1rem;
+  background-color: #51287a;
+  color: silver; }
+
+.header {
+  background: url("../img/backgroundpurple.png") repeat;
+  background-size: auto;
+  min-height: auto;
+  max-width: 100%; }
+  .header .navbar {
+    background-color: transparent !important; }
+  .header .navbar-nav a {
+    padding-left: 6rem;
+    transition: all 1s; }
+  .header .navbar-brand img {
+    max-width: 100%; }
+  .header .navbar-nav a:hover {
+    color: #948647; }
+  .header .navbar-nav .nav-link,
+  .header .navbar-nav .show > .nav-link {
+    font-size: 20px;
+    color: silver; }
+  .header .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28 255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"); }
+
 .footer {
   background: url("../img/backgroundpurple.png") repeat;
   max-width: 100%;
   height: 8rem;
   display: flex;
+  flex-direction: row;
   justify-content: end;
   align-items: center; }
   .footer li {
@@ -71,115 +218,6 @@ body {
   .footer a:hover {
     color: #948647;
     border-bottom: 1px #948647; }
-
-/*--------------------------------------------------------MAIN INDEX-------------------------------------------------------*/
-.main {
-  /*--------------------------------------------------------MAIN MEDIA-------------------------------------------------------*/
-  /*--------------------------------------------------------MAIN MUSIC-------------------------------------------------------*/
-  /*--------------------------------------------------------MAIN TOUR-------------------------------------------------------*/
-  /*--------------------------------------------------------MAIN STORE-------------------------------------------------------*/
-  /*--------------------------------------------------------MAIN CONTACT-------------------------------------------------------*/ }
-  .main__sectionmembers {
-    display: flex;
-    flex-direction: column; }
-  .main__img {
-    width: 100%; }
-  .main__biobandtitle {
-    padding: 0%;
-    color: silver; }
-  .main__bioband {
-    background-color: #51287a;
-    border-radius: 15px;
-    opacity: 70%;
-    padding: 5px; }
-  .main__imgmember1 {
-    margin-left: 7rem; }
-  .main__imgmember2 {
-    margin-right: 7rem; }
-  .main__text1 {
-    margin-right: 7rem;
-    background-color: #51287a;
-    padding: 10px;
-    opacity: 70%;
-    border-radius: 15px; }
-  .main__text2 {
-    margin-left: 7rem;
-    background-color: #51287a;
-    padding: 10px;
-    opacity: 70%;
-    border-radius: 15px; }
-  .main__name2 {
-    text-align: end; }
-  .main__steven {
-    display: flex;
-    flex-direction: row;
-    align-items: center; }
-  .main__joe {
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center; }
-  .main__brad {
-    display: flex;
-    flex-direction: row;
-    align-items: center; }
-  .main__tom {
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center; }
-  .main__joey {
-    display: flex;
-    flex-direction: row;
-    align-items: center; }
-  .main__videography {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center; }
-  .main__video {
-    margin: 1rem; }
-  .main__albumsection {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 3rem; }
-  .main__imgmusic {
-    width: 100%; }
-  .main__albumsection iframe {
-    margin: 1rem; }
-  .main__imgtour {
-    background-color: black;
-    width: 100%; }
-  .main__toursection2 {
-    padding: 10rem 1.5rem 5rem 1.5rem; }
-  .main__toursection2 th {
-    color: silver; }
-  .main__toursection2 tr {
-    background-color: #51287a; }
-  .main_toursection2 td {
-    color: silver; }
-  .main__storesection {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 3rem 7rem 3rem 7rem; }
-  .main__storesection img {
-    transition: all 0.5s; }
-  .main__storesection img {
-    width: 25%;
-    margin: 2rem; }
-  .main__storesection img:hover {
-    transform: scale(1.5, 1.5);
-    border: solid black; }
-  .main__imgcontact {
-    padding-top: 1rem;
-    width: 100%; }
-  .main__form {
-    border-color: #51287a;
-    border-style: double; }
-  .main__btnform {
-    padding: 5px;
-    margin-bottom: 1rem;
-    background-color: #51287a;
-    color: silver; }
 
 /* RESPONSIVE MOBILE */
 @media (min-width: 320px) and (max-width: 576px) {

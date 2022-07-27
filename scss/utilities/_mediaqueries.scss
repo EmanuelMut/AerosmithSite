@@ -1,0 +1,200 @@
+
+/* RESPONSIVE MOBILE */
+@media (min-width: 320px) and (max-width: 576px) {
+    .navbar-brand {
+        width: 205px;
+    }
+
+    .main {
+        & h1 {
+            font-size: 20px;
+            padding: 1rem;
+        }
+
+        & h2 {
+            font-size: 18px;
+            padding: 1rem;
+        }
+
+        & h3 {
+            text-align: center;
+        }
+
+        & p {
+            font-size: 15px;
+        }
+
+        &__bioband {
+            margin-top: 1rem;
+            padding: 1rem;
+        }
+
+        &__text1 {
+            margin: 0%;
+        }
+
+        &__text2 {
+            margin: 0%;
+        }
+
+        &__steven {
+            flex-direction: column;
+            margin: 0;
+        }
+
+        &__joe {
+            flex-direction: column;
+            margin: 0;
+        }
+
+        &__brad {
+            flex-direction: column;
+            margin: 0;
+        }
+
+        &__tom {
+            flex-direction: column;
+            margin: 0;
+        }
+
+        &__joey {
+            flex-direction: column;
+            margin: 0;
+        }
+
+        &__imgmember1 {
+            margin: 0;
+            width: 70%;
+            padding-top: 1rem;
+        }
+
+        &__imgmember2 {
+            margin: 0;
+            width: 70%;
+            padding-top: 1rem;
+        }
+
+        & table {
+            margin: 0%;
+            padding: 0%;
+            font-size: 10px;
+        }
+
+        &__toursection2 {
+            padding: 0%;
+        }
+
+        & .btn {
+            font-size: 10px;
+        }
+
+        &__storesection {
+            margin: 1rem;
+        }
+
+        &__storesection img {
+            width: 80%;
+            margin: 0.5rem;
+        }
+    }
+
+    .footer {
+        justify-content: center;
+
+        & svg {
+            width: 25px;
+        }
+    }
+}
+
+
+/* RESPOSIVE TABLET */
+
+@media (min-width: 577px) and (max-width: 991px) {
+    .main {
+        & h1 {
+            font-size: 20px;
+            padding: 1rem;
+        }
+
+        & h2 {
+            font-size: 18px;
+            padding: 1rem;
+        }
+
+        & h3 {
+            text-align: center;
+        }
+
+        & p {
+            font-size: 15px;
+        }
+
+        &__bioband {
+            margin-top: 1rem;
+            padding: 1rem;
+        }
+
+        &__text1 {
+            margin: 0%;
+        }
+
+        &__text2 {
+            margin: 0%;
+        }
+
+        &__steven {
+            flex-direction: column;
+            margin: 0;
+        }
+
+        &__joe {
+            flex-direction: column;
+            margin: 0;
+        }
+
+        &__brad {
+            flex-direction: column;
+            margin: 0;
+        }
+
+        &__tom {
+            flex-direction: column;
+            margin: 0;
+        }
+
+        &__joey {
+            flex-direction: column;
+            margin: 0;
+        }
+
+        &__imgmember1 {
+            margin: 0;
+            width: 70%;
+            padding-top: 1rem;
+        }
+
+        &__imgmember2 {
+            margin: 0;
+            width: 70%;
+            padding-top: 1rem;
+        }
+
+        &__storesection {
+            margin: 1rem;
+        }
+
+        &__storesection img {
+            width: 55%;
+            margin: 0.5rem;
+        }
+
+        .footer {
+            justify-content: center;
+
+            & svg {
+                width: 25px;
+            }
+        }
+    }
+}

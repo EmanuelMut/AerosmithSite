@@ -1,0 +1,15 @@
+.main {
+    &__albumsection {
+        @include flex (row, space-around, none);
+        flex-wrap: wrap;
+        padding: 3rem;
+    }
+
+    &__imgmusic {
+        width: 100%;
+    }
+
+    &__albumsection iframe {
+        margin: 1rem;
+    }
+}

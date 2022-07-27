@@ -1,0 +1,21 @@
+.main {
+    &__storesection {
+        @include flex (row, center, none);
+        flex-wrap: wrap;
+        margin: 3rem 7rem 3rem 7rem;
+    }
+
+    &__storesection img {
+        transition: all 0.5s;
+    }
+
+    &__storesection img {
+        width: 25%;
+        margin: 2rem;
+    }
+
+    &__storesection img:hover {
+        transform: scale(1.5, 1.5);
+        border: solid black;
+    }
+}
