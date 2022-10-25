@@ -49,9 +49,9 @@ while (answer1 === 1) {
             case 4:
                 if (totalAmount >= 400) {
                     let discount = sub (totalAmount, multiply (totalAmount, 0.05));
-                    alert("Discounted value: " + discount);
+                    alert("Discounted value: " + discount + " USD");
                 } else {
-                    alert("Total amount: " + totalAmount);
+                    alert("Total amount: " + totalAmount + " USD");
                 }
                 break;
 
@@ -64,9 +64,9 @@ while (answer1 === 1) {
 
         if (totalAmount >= 1000) {
             let discount = sub (totalAmount, multiply (totalAmount, 0.15));
-            alert("Discounted value:  " + discount);
+            alert("Discounted value:  " + discount + " USD");
         } else {
-            alert("Total amount: " + totalAmount);
+            alert("Total amount: " + totalAmount + " USD");
         }
 
     }
