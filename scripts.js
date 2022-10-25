@@ -4,20 +4,20 @@ const capPrice = 100;
 
 let totalAmount = 0;
 
-function sum (a, b) {
+function sum(a, b) {
     return a + b;
 }
 
-function sub (a, b) {
+function sub(a, b) {
     return a - b;
 }
 
-function multiply (a, b) {
+function multiply(a, b) {
     return a * b;
 }
 
 function updateTotalAmount(addCost) {
-    totalAmount = sum (totalAmount, addCost)
+    totalAmount = sum(totalAmount, addCost)
 }
 
 
@@ -48,8 +48,8 @@ while (answer1 === 1) {
             // total
             case 4:
                 if (totalAmount >= 400) {
-                    let discount = sub (totalAmount, multiply (totalAmount, 0.05));
-                    alert("Discounted value: " + discount + " USD");
+                    let discount = sub(totalAmount, multiply(totalAmount, 0.05));
+                    alert("Total amount - 15% OFF: " + discount + " USD");
                 } else {
                     alert("Total amount: " + totalAmount + " USD");
                 }
@@ -60,14 +60,18 @@ while (answer1 === 1) {
                 break;
         }
     }
-    if (answer2 === 2) {
+    else if (answer2 === 2) {
 
         if (totalAmount >= 1000) {
-            let discount = sub (totalAmount, multiply (totalAmount, 0.15));
-            alert("Discounted value:  " + discount + " USD");
+            let discount = sub(totalAmount, multiply(totalAmount, 0.15));
+            alert("Total amount - 15% OFF:  " + discount + " USD");
         } else {
             alert("Total amount: " + totalAmount + " USD");
         }
 
+    }
+    else {
+        alert("Thanks!!!")
+        break;
     }
 }
